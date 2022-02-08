@@ -1,0 +1,66 @@
+/* para cambiar menu amarillo */
+ul.menu{
+background-color: black;
+}
+/* Para cambuar lo de atras del logo  */
+.container-fluid{
+    background-color: rgb(241, 238, 238);
+}
+/* cambiar letras menu */
+ul.menu > li a{
+    color: white;
+    font-weight: bold;
+}
+ul.menu li a:hover{
+    color: rgb(240, 236, 236);
+}
+/* Cambiar de color al pasar el raton de los apartados menu */
+ul.menu li:hover{
+    
+}
+#logo img{
+    
+    height: 200px;
+}
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+}
+/* Para bajar hacia abajo */
+header .contacto>div{
+vertical-align: bottom;
+}
+header .user-utils>div{
+    vertical-align: bottom;
+}
+/* PAl cero de mierdda */
+header .user-utils #shopping-cart > span{
+    /* font-size: 15px; */
+    color:rgb(229, 238, 238);
+    font-weight: bold;
+}
+.fa-user:before, .fa-shopping-cart:before{
+    font-size: 50px;
+    /* color: */
+    color:rgb(17, 19, 19);
+    
+    
+}
+/* Footer */
+footer{
+    background-color: black;
+}
+h4{
+    color: white;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+header .user-utils > div > a {
+    color: black;
+}
+footer .footer_links ul li a{
+    color:white
+}
