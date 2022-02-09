@@ -16,7 +16,7 @@ ul.menu li a:hover{
 }
 /* Cambiar de color al pasar el raton de los apartados menu */
 ul.menu li:hover{
-    
+    background-color: rgb(120, 122, 122);
 }
 #logo img{
     
@@ -63,4 +63,31 @@ header .user-utils > div > a {
 }
 footer .footer_links ul li a{
     color:white
+}
+td, th{
+    text-align: center;
+    width: 20%;
+}
+.h3, h3{
+    color: black;
+    font-weight: bold;
+}
+@media(max-width:460px){
+
+    .descripcion{
+        display: none;
+    }
+    .botella img{
+        height: 100px;
+    }
+
+    #logo img{
+        height: 150px;
+    }
+    header .user-utils > div > a i.fa-shopping-cart:before{
+        font-size: 30px;
+    }
+    header .user-utils > div > a i.fa-user:before{
+        font-size: 30px;
+    }
 }
