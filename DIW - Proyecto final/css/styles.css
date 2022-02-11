@@ -1,93 +1,196 @@
 /* para cambiar menu amarillo */
-ul.menu{
-background-color: black;
+ul.menu {
+    background-color: black;
 }
+
 /* Para cambuar lo de atras del logo  */
-.container-fluid{
+.container-fluid {
     background-color: rgb(241, 238, 238);
 }
+
 /* cambiar letras menu */
-ul.menu > li a{
+ul.menu>li a {
     color: white;
     font-weight: bold;
 }
-ul.menu li a:hover{
+
+ul.menu li a:hover {
     color: rgb(240, 236, 236);
 }
+
 /* Cambiar de color al pasar el raton de los apartados menu */
-ul.menu li:hover{
+ul.menu li:hover {
     background-color: rgb(120, 122, 122);
 }
-#logo img{
-    
+
+#logo img {
+
     height: 200px;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: rgb(255, 255, 255);
 }
+
 /* Para bajar hacia abajo */
-header .contacto>div{
-vertical-align: bottom;
-}
-header .user-utils>div{
+header .contacto>div {
     vertical-align: bottom;
 }
+
+header .user-utils>div {
+    vertical-align: bottom;
+}
+
 /* PAl cero de mierdda */
-header .user-utils #shopping-cart > span{
+header .user-utils #shopping-cart>span {
     /* font-size: 15px; */
-    color:rgb(229, 238, 238);
+    color: rgb(229, 238, 238);
     font-weight: bold;
 }
-.fa-user:before, .fa-shopping-cart:before{
+
+.fa-user:before, .fa-shopping-cart:before {
     font-size: 50px;
     /* color: */
-    color:rgb(17, 19, 19);
-    
-    
+    color: rgb(17, 19, 19);
+
+
 }
+
 /* Footer */
-footer{
+footer {
     background-color: black;
 }
-h4{
+
+h4 {
     color: white;
 }
 
-.copyright{
+.copyright {
     background-color: black;
     color: white;
     font-size: 15px;
 }
-header .user-utils > div > a {
+
+header .user-utils>div>a {
     color: black;
 }
-footer .footer_links ul li a{
-    color:white
+
+footer .footer_links ul li a {
+    color: white
 }
-td, th{
+
+td, th {
     text-align: center;
     width: 20%;
 }
-.h3, h3{
+
+.h3, h3 {
     color: black;
     font-weight: bold;
 }
-@media(max-width:460px){
 
-    .descripcion{
+@media(max-width:460px) {
+
+    .descripcion {
         display: none;
     }
-    .botella img{
+
+    .botella img {
         height: 100px;
     }
 
-    #logo img{
+    #logo img {
         height: 150px;
     }
-    header .user-utils > div > a i.fa-shopping-cart:before{
+
+    header .user-utils>div>a i.fa-shopping-cart:before {
         font-size: 30px;
     }
-    header .user-utils > div > a i.fa-user:before{
+
+    header .user-utils>div>a i.fa-user:before {
         font-size: 30px;
     }
+
+    header .user-utils>div>a label {
+        display: none;
+    }
+
+    p {
+        color: black;
+        font-size: 10px;
+        text-align: right;
+        font-weight: bold;
+        margin-right: auto;
+    }
+
+    .gastos {
+        font-size: 20px;
+    }
+
+
+}
+
+#botella1 {
+    margin-bottom: 40px;
+}
+
+#botella1>ul {
+    font-size: 20px;
+    list-style: none;
+    color: black;
+    display: inline-block;
+    text-align: left;
+}
+
+.img1 {
+    margin-bottom: 100px;
+}
+
+#botella2>ul {
+    font-size: 20px;
+    list-style: none;
+    color: black;
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    color: black;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+hr {
+    color: black;
+}
+
+#totop {
+    display: none;
+    position: fixed;
+    right: 40px;
+    bottom: 64px;
+    width: 30px;
+    height: 32px;
+    background: rgb(245, 244, 244);
+    z-index: 9999;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 9px;
+    color: rgb(7, 7, 7);
+}
+
+.gastos {
+    font-size: 30px;
+}
+
+#main.row {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+header .user-utils #shopping-cart>span{
+    color:black;
+    background-color: aqua;
 }
